@@ -23,7 +23,7 @@ const Form = () => {
       register,
       reset,
       formState,
-      formState: { errors, isSubmitSuccessful },
+      formState: { errors },
     } = useForm<TheSchemaTypes>({
       resolver: zodResolver(TheSchema),
     });
